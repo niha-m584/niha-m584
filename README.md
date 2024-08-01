@@ -24,6 +24,8 @@ Here are some of my key projects:
   
 - [Credit Card Fraud Project](https://github.com/niha-m584/Credit_Card_Fraud_Project): I aimed to predict fraudulent credit card transactions using a dataset with 30 features, including PCA-reduced features (V1-V28) and a Time column. The dataset is heavily imbalanced, with 99.85% of transactions being non-fraudulent. Initially, I used an Isolation Forest classifier, which increased accuracy to 99%. To address data bias, I added a Random Forest classifier with class weighting, boosting accuracy to 99.95%. Reducing the feature set to the two most important features slightly decreased accuracy to 99.92%.
 
+- [E-Commerce Product Delivery Prediction](https://github.com/niha-m584/E-Commerce-Product-Delivery-Prediction): The project aimed to predict whether products from an e-commerce company would be delivered on time, analyzing factors affecting delivery and customer behavior. Found that product weight, cost, and customer interactions significantly impact delivery times. Heavier products with moderate costs and higher discounts were more likely to be delivered on time, while frequent customer calls correlated with delays. Among the machine learning models tested, the decision tree classifier achieved the highest accuracy at 69%, followed by random forest and logistic regression with 68% and 67% respectively. Enhancements included advanced preprocessing, adding GradientBoostingClassifier and LogisticRegression, extensive hyperparameter tuning, and comprehensive model evaluation using GridSearchCV.
+
 
 
 
